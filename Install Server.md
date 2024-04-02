@@ -21,12 +21,27 @@ This command will clone the repository to the current directory (/root/CAMPS-Ser
 > 
 > To create you access token, follow those steps: [How to create personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
 
-## 4. Verify the Cloning.
-After the cloning process completes, you can verify that your repository has been cloned successfully by listing the contents of the /root/CAMPS/ directory:
+## 4. Make Executables.
+- Navigate to the Build derictory: 
+```bash
+cd /root/CAMPS-Server/Build/
+```
+- Make CAMPS.x86_64 executable:
+```bash
+chmod +x CAMPS.x86_64
+```
+- Make Start_Server.sh executable:
+```bash
+chmod +x Start_Server.sh
+```
+
+## That's it! :+1: You have successfully installed CAMPS server on your server machine.
+You can now [Setup CAMPS Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Setup%20Server.md).
+
+> [!NOTE]
+> After the cloning process completes, you can verify that your repository has been cloned successfully by listing the contents of the /root/CAMPS/ directory:
 ```bash
 ls /root/CAMPS-Server/
 ```
 You should see the files and directories from this Git repository.
 
-## That's it! :+1: You have successfully installed CAMPS server on your server machine. 
-You can now [Setup CAMPS Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Setup%20Server.md).

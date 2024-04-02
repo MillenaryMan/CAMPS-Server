@@ -6,7 +6,8 @@ Steam Store Page: https://store.steampowered.com/app/2882560/CAMPS/
 
 This is the step-by step instruction on how to setup your own CAMPS server.
 
-Before you start, make sure you have Linux based virtual or dedicated sever.
+> [!IMPORTANT]
+> Before you start, make sure you have Linux based virtual or dedicated sever.
 
 1. [Install Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Install%20Server.md)
 2. [Setup Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Setup%20Server.md)

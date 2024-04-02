@@ -9,15 +9,7 @@ sudo apt install git
 If you're using a different Linux distribution, replace apt with your distribution's package manager, such as yum for CentOS or zypper for openSUSE.
 
 # 2.Clone CAMPS server repository.
-- Create the Directory Before Cloning:
-```bash
-mkdir -p /root/CAMPS/
-```
-- Navigate to the directory:
-```bash
-cd /root/CAMPS/
-```
-- Then, clone CAMPS Server repository using the git clone command:
+Clone CAMPS Server repository using the git clone command:
 ```bash
 git clone https://github.com/MillenaryMan/CAMPS-Server.git
 ```

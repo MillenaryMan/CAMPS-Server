@@ -1,7 +1,8 @@
 # CAMPS-Server
-CAMPS Server Toolkit
-
 "CAMPS is an immersive, tactical action sandbox where every detail matters."
+
+![](https://github.com/MillenaryMan/CAMPS-Server/blob/main/GitBanner.png)
+
 Steam Store Page: https://store.steampowered.com/app/2882560/CAMPS/
 
 > [!IMPORTANT]

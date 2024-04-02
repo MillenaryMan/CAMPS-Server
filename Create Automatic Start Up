@@ -1,0 +1,48 @@
+To automatically run your game server on startup on Ubuntu, you can create a systemd service unit. Here's how you can do it:
+
+Create a systemd Service Unit File:
+
+Open a terminal on your Ubuntu server.
+
+sudo nano /etc/systemd/system/game_server.service
+Replace game_server with a name of your choice for the service.
+
+Add the Service Configuration:
+
+Inside the file, add the following lines:
+
+[Unit]
+Description=Game Server Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/root/CAMPS/CAMPS.x86_64 -batchmode -nographics -logfile /path/to/logfile.log
+
+[Install]
+WantedBy=multi-user.target
+Modify the ExecStart line to include the command needed to start your game server. Replace /root/CAMPS/CAMPS.x86_64 with the path to your game server executable and /path/to/logfile.log with the desired path to your log file.
+
+Save and Close the File:
+After making the necessary changes, save and close the file by pressing Ctrl + X, then Y, and finally Enter.
+
+Reload systemd and Enable the Service:
+sudo systemctl daemon-reload
+sudo systemctl enable game_server
+This reloads systemd to pick up the changes you made and enables the service to start automatically on boot.
+
+Start the Service:
+
+sudo systemctl start game_server
+This command starts the service immediately. You can verify that it's running properly by checking its status:
+
+sudo systemctl status game_server
+Reboot Your Server:
+
+To test if the service starts automatically on boot, you can reboot your server:
+
+sudo reboot[]
+After the server has rebooted, check if the game server service is running:
+
+sudo systemctl status game_server
+That's it! Your game server should now start automatically on boot on your Ubuntu server. Adjust the paths and commands in the service unit file according to your specific setup.

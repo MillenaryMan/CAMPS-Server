@@ -1,9 +1,9 @@
 # CAMPS-Server
 "CAMPS is an immersive, tactical action sandbox where every detail matters."
 
-![](https://github.com/MillenaryMan/CAMPS-Server/blob/main/GitBanner.png)
-
 Steam Store Page: https://store.steampowered.com/app/2882560/CAMPS/
+
+![](https://github.com/MillenaryMan/CAMPS-Server/blob/main/GitBanner.png)
 
 > [!IMPORTANT]
 > Before you start, make sure you have Linux based virtual or dedicated sever.

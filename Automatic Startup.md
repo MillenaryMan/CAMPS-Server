@@ -1,12 +1,11 @@
-To automatically run CAMPS server on startup on Ubuntu, you can create a systemd service unit.
-Here's how you can do it:
+# To automatically run CAMPS server on startup, you can create a systemd service unit. (Ubuntu)
 
-## 1.Create a systemd Service Unit File.
+## 1. Create a systemd Service Unit File.
 Open a terminal on your Ubuntu server.
 ```bash
 sudo nano /etc/systemd/system/camps_server.service
 ```
-## 2.Add the Service Configuration.
+## 2. Add the Service Configuration.
 Inside the file, add the following lines:
 ```makefile
 [Unit]
@@ -22,7 +21,7 @@ WantedBy=multi-user.target
 ```
 After making the necessary changes, save and close the file by pressing Ctrl + X, then Y, and finally Enter.
 
-## 3.Reload systemd and Enable the Service.
+## 3. Reload systemd and Enable the Service.
 This reloads systemd to pick up the changes you made and enables the service to start automatically on each boot.
 ```bash
 sudo systemctl daemon-reload

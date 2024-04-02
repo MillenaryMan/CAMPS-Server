@@ -16,9 +16,10 @@ git clone https://github.com/MillenaryMan/CAMPS-Server.git
 This command will clone the repository to the current directory (/root/CAMPS-Server/).
 
 # 3.Authenticate (If Required).
-Git will prompt you to enter your username and password or access token.
-
-To create you access token, follow those steps: [How to create personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+> [!NOTE]
+> Git will prompt you to enter your username and password or access token.
+> 
+> To create you access token, follow those steps: [How to create personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
 
 # 4.Verify the Cloning.
 After the cloning process completes, you can verify that your repository has been cloned successfully by listing the contents of the /root/CAMPS/ directory:

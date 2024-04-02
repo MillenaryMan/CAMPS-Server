@@ -27,7 +27,7 @@ This reloads systemd to pick up the changes you made and enables the service to 
 sudo systemctl daemon-reload
 sudo systemctl enable camps_server
 ```
-## That's it!:+1:  Your CAMPS server should now start automatically on boot.
+## That's it! :+1:  Your CAMPS server should now start automatically on boot.
 
   
 > [!TIP]

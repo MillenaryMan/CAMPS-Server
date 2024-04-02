@@ -28,5 +28,5 @@ ls /root/CAMPS-Server/
 ```
 You should see the files and directories from this Git repository.
 
-## That's it! You have successfully installed CAMPS server on your server machine. 
+## That's it! :+1: You have successfully installed CAMPS server on your server machine. 
 You can now [Setup CAMPS Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Setup%20Server.md).

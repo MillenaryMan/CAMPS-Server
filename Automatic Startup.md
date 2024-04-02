@@ -16,7 +16,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/root/CAMPS/CAMPS.x86_64 -batchmode -nographics -logfile /root/CAMPS/logfile.log
+ExecStart=/root/CAMPS-Server/Build/CAMPS.x86_64 -batchmode -nographics -logfile /root/CAMPS-Server/logfile.log
 
 [Install]
 WantedBy=multi-user.target

@@ -67,6 +67,7 @@ Identify the rule number associated with the port you want to remove from the li
 ```bash
 sudo ufw delete <rule_number>
 ```
+Replace <rule_number> with the actual rule number associated with the port.
 
 * Reload UFW:
 After making changes to UFW rules, it's a good practice to reload the firewall to apply the changes. You can do this by running:

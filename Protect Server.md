@@ -3,7 +3,7 @@
 *  Monitor Network Traffic with Gnome System Monitor.
 > If you prefer a graphical user interface, you can use the Gnome System Monitor to monitor bandwidth usage.
 
-To install Gnome System Monitor, open a terminal and run:
+To install Gnome System Monitor, open a terminal (by searching for "Terminal" in the Ubuntu Dash or pressing Ctrl+Alt+T) and run:
 ```bash
 sudo apt-get install gnome-system-monitor
 ```

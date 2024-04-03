@@ -1,7 +1,7 @@
 # 1. Monitor Network Traffic
 
 *  Monitor Network Traffic with Gnome System Monitor.
-If you prefer a graphical user interface, you can use the Gnome System Monitor to monitor bandwidth usage
+> If you prefer a graphical user interface, you can use the Gnome System Monitor to monitor bandwidth usage
 To install Gnome System Monitor, open a terminal and run:
 ```bash
 sudo apt-get install gnome-system-monitor
@@ -31,7 +31,7 @@ vnstat -l
 ```
 
 # 2. Open/Close ports (Configure Firewall Rules)
-To open or close a port on Ubuntu, you can use the Uncomplicated Firewall (UFW) which is a frontend for managing firewall rules in Ubuntu.
+> To open or close a port on Ubuntu, you can use the Uncomplicated Firewall (UFW) which is a frontend for managing firewall rules in Ubuntu.
 * Install UFW if not already installed:
 ```sql
 sudo apt update
@@ -82,3 +82,13 @@ sudo ufw status
 ```
 This will display the current status of UFW and the list of rules, including the ports that are allowed or denied.
 
+> [!TIP]
+> You can temporarily  block all incoming traffic as a measure against a potential DDoS (Distributed Denial of Service) attack.
+Here's how you can do it:
+```bash
+sudo ufw default deny incoming
+```
+To revert back to the default behavior (allowing incoming traffic)
+```bash
+sudo ufw default allow incoming
+```

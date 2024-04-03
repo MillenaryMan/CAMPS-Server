@@ -15,6 +15,7 @@ Install vnStat by running the following command:
 sudo apt install vnstat
 ```
 Once vnStat is installed, it starts monitoring your network traffic automatically. 
+
 You can check the status of vnStat by running the command:
 ```bash
 vnstat

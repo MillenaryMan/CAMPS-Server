@@ -1,6 +1,6 @@
 # 1. Monitor Network Traffic
 
-* Gnome System Monitor.
+*  Monitor Network Traffic with Gnome System Monitor.
 If you prefer a graphical user interface, you can use the Gnome System Monitor to monitor bandwidth usage
 To install Gnome System Monitor, open a terminal and run:
 ```bash

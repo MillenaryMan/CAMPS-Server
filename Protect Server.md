@@ -1,7 +1,7 @@
 # 1. Monitor Network Traffic
 
 *  Monitor Network Traffic with Gnome System Monitor.
-> If you prefer a graphical user interface, you can use the Gnome System Monitor to monitor bandwidth usage
+> If you prefer a graphical user interface, you can use the Gnome System Monitor to monitor bandwidth usage.
 
 To install Gnome System Monitor, open a terminal and run:
 ```bash
@@ -14,7 +14,8 @@ Install vnStat by running the following command:
 ```bash
 sudo apt install vnstat
 ```
-Once vnStat is installed, it starts monitoring your network traffic automatically. You can check the status of vnStat by running the command:
+Once vnStat is installed, it starts monitoring your network traffic automatically. 
+You can check the status of vnStat by running the command:
 ```bash
 vnstat
 ```

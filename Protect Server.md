@@ -1,11 +1,34 @@
 # 1. Monitor Network Traffic
+
+* Gnome System Monitor.
 If you prefer a graphical user interface, you can use the Gnome System Monitor to monitor bandwidth usage
 To install Gnome System Monitor, open a terminal and run:
-
 ```bash
 sudo apt-get install gnome-system-monitor
 ```
 Once installed, you can typically launch these tools from the terminal by typing their names or find them in your system's application menu. 
+
+* Monitor Network Traffic with vnStat.
+Install vnStat by running the following command:
+```bash
+sudo apt install vnstat
+```
+Once vnStat is installed, it starts monitoring your network traffic automatically. You can check the status of vnStat by running the command:
+```bash
+vnstat
+```
+Start the vnStat Service:
+```bash
+sudo systemctl start vnstat
+```
+Enable vnStat to Start on Boot:
+```bash
+sudo systemctl enable vnstat
+```
+To view real-time network bandwidth statistics use the following command:
+```bash
+vnstat -l
+```
 
 # 2. Open/Close ports (Configure Firewall Rules)
 To open or close a port on Ubuntu, you can use the Uncomplicated Firewall (UFW) which is a frontend for managing firewall rules in Ubuntu.

@@ -56,7 +56,8 @@ To deny incoming traffic on a specific port, you can use the following command:
 ```bash
 sudo ufw deny <port_number>
 ```
-Replace <port_number> with the actual port number you want to close. For example, to close port 80 (HTTP), you would run:
+> Replace <port_number> with the actual port number you want to close. 
+For example, to close port 80 (HTTP), you would run:
 ```bash
 sudo ufw deny 80
 ```
@@ -66,14 +67,16 @@ List Current Rules:
 ```bash
 sudo ufw status numbered
 ```
-Identify the rule number associated with the port you want to remove from the list. Then, use the following command to remove it:
+> Identify the rule number associated with the port you want to remove from the list.
+Then, use the following command to remove it:
 ```bash
 sudo ufw delete <rule_number>
 ```
 Replace <rule_number> with the actual rule number associated with the port.
 
 * Reload UFW:
-After making changes to UFW rules, it's a good practice to reload the firewall to apply the changes. You can do this by running:
+> After making changes to UFW rules, it's a good practice to reload the firewall to apply the changes.
+You can do this by running:
 ```bash
 sudo ufw reload
 ```

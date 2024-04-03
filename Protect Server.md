@@ -85,11 +85,11 @@ This will display the current status of UFW and the list of rules, including the
 > [!TIP]
 > You can temporarily  block all incoming traffic as a measure against a potential DDoS (Distributed Denial of Service) attack.
 
-Here's how you can do it:
+* Deny incoming traffic.
 ```bash
 sudo ufw default deny incoming
 ```
-To revert back to the default behavior (allowing incoming traffic)
+* Allow incoming traffic.
 ```bash
 sudo ufw default allow incoming
 ```

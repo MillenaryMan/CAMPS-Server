@@ -10,6 +10,7 @@ sudo apt-get install gnome-system-monitor
 Once installed, you can typically launch these tools from the terminal by typing their names or find them in your system's application menu. 
 
 * Monitor Network Traffic with vnStat.
+
 Install vnStat by running the following command:
 ```bash
 sudo apt install vnstat

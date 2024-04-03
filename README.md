@@ -11,7 +11,7 @@ Steam Store Page: https://store.steampowered.com/app/2882560/CAMPS/
 > Minimum system requirements for launching the server build:
 > - OS: Linux-based (Ubuntu compatibility verified)
 >
-> - CPU: 2 Cores
+> - CPU: 2 Cores (>2Ghz)
 >
 > - RAM: 3GB 
 >

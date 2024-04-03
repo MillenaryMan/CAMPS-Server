@@ -9,7 +9,7 @@ Steam Store Page: https://store.steampowered.com/app/2882560/CAMPS/
 > Before you start, ensure you have a Linux-based virtual or dedicated server.
 >
 > Minimum system requirements for launching the server build:
-> - OS: Linux-based (Ubuntu compatibility verified)
+> - OS: Linux-based (Ubuntu 22.04 compatibility verified)
 >
 > - CPU: 2 Cores (>2.5Ghz)
 >

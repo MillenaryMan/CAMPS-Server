@@ -57,6 +57,16 @@ Replace <port_number> with the actual port number you want to close. For example
 ```bash
 sudo ufw deny 80
 ```
+* Remove a Port:
+To remove a port, you can use the following command:
+List Current Rules:
+```bash
+sudo ufw status numbered
+```
+Identify the rule number associated with the port you want to remove from the list. Then, use the following command to remove it:
+```bash
+sudo ufw delete <rule_number>
+```
 
 * Reload UFW:
 After making changes to UFW rules, it's a good practice to reload the firewall to apply the changes. You can do this by running:

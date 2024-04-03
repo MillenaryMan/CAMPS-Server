@@ -8,14 +8,14 @@ Steam Store Page: https://store.steampowered.com/app/2882560/CAMPS/
 > [!IMPORTANT]
 > Before you start, ensure you have a Linux-based virtual or dedicated server.
 >
-> Minimum system requirements for a server machine:
+> Minimum system requirements for launching the server build:
 > - OS: Linux-based (Ubuntu compatibility verified)
 >
 > - CPU: 2 Cores
 >
-> - RAM: 4GB
+> - RAM: 3GB 
 >
-> - Storage: 4GB
+> - Storage: 2GB
 
 This is the step-by step instruction on how to setup your own CAMPS server.
 1. [Install Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Install%20Server.md)

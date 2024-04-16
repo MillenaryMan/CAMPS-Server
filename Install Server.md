@@ -6,6 +6,8 @@ Update the package index and install Git using your package manager. On Ubuntu, 
 sudo apt update
 sudo apt install git
 sudo apt install git-lfs
+git config --global http.postBuffer 716800000
+config --global user.email campsserver@hotmail.com
 ```
 If you're using a different Linux distribution, replace apt with your distribution's package manager, such as yum for CentOS or zypper for openSUSE.
 
@@ -22,7 +24,7 @@ This command will clone the repository to the current directory (/root/CAMPS-Ser
 > 
 > Username: campsserver@hotmail.com
 > 
-> Token: zlk5dhpb64xitrlggawwtivrrorvqkqwiwtahh7bq4v2ly5qsmaa (Will expire 1 January 2025)
+> Token: qfzh6rwvf4c6in5f6sxwlioubkcvqg5ksv6hf4e55wjlaxqoqn4a (Will expire 1 January 2025)
 
 ## 4. Make Executables.
 - Navigate to the Build derictory: 

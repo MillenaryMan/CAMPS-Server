@@ -23,7 +23,7 @@ This command will clone the repository to the current directory (/root/CAMPS-Ser
 > Git will prompt you to enter password or access token.
 >
 > 
-> Token: 62xlspkhjdll4ojovwogzmapxcgo67n5b55basazqgrjq72yywsa (Will expire 1 January 2025)
+> Token: 
 
 ## 4. Make Executables.
 - Navigate to the Build derictory: 

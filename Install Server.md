@@ -21,6 +21,7 @@ This command will clone the repository to the current directory (/root/CAMPS-Ser
 ## 3. Authenticate.
 > [!NOTE]
 > Git will prompt you to enter password or access token.
+>
 > 
 > Token: qfzh6rwvf4c6in5f6sxwlioubkcvqg5ksv6hf4e55wjlaxqoqn4a (Will expire 1 January 2025)
 

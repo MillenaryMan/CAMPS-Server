@@ -5,6 +5,7 @@ Update the package index and install Git using your package manager. On Ubuntu, 
 ```sql
 sudo apt update
 sudo apt install git
+sudo apt install git-lfs
 ```
 If you're using a different Linux distribution, replace apt with your distribution's package manager, such as yum for CentOS or zypper for openSUSE.
 

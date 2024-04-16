@@ -15,7 +15,7 @@ git clone https://MillenaryGames@dev.azure.com/MillenaryGames/CAMPS-Server/_git/
 ```
 This command will clone the repository to the current directory (/root/CAMPS-Server/).
 
-## 3. Authenticate (If Required).
+## 3. Authenticate.
 > [!NOTE]
 > Git will prompt you to enter your username and password and access token.
 > 

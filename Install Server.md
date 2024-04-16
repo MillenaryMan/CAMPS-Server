@@ -17,7 +17,7 @@ This command will clone the repository to the current directory (/root/CAMPS-Ser
 
 ## 3. Authenticate.
 > [!NOTE]
-> Git will prompt you to enter your username and password and access token.
+> Git will prompt you to enter username and password or access token.
 > 
 > Username: campsserver@hotmail.com
 > 

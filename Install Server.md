@@ -22,7 +22,7 @@ This command will clone the repository to the current directory (/root/CAMPS-Ser
 > 
 > Username: campsserver@hotmail.com
 > 
-> Token: yprd6e2su54vf6xdqm4ffc7mjkh7xnn7xp5gkdrwrlbiascquopq (Will expire 1 January 2025)
+> Token: zlk5dhpb64xitrlggawwtivrrorvqkqwiwtahh7bq4v2ly5qsmaa (Will expire 1 January 2025)
 
 ## 4. Make Executables.
 - Navigate to the Build derictory: 

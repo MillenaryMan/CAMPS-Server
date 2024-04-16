@@ -9,17 +9,18 @@ sudo apt install git
 If you're using a different Linux distribution, replace apt with your distribution's package manager, such as yum for CentOS or zypper for openSUSE.
 
 ## 2. Clone CAMPS server repository.
-Clone CAMPS Server repository using the git clone command:
+Clone CAMPS Server Azure repository using the git clone command:
 ```bash
-git clone https://github.com/MillenaryMan/CAMPS-Server.git
+git clone https://MillenaryGames@dev.azure.com/MillenaryGames/CAMPS-Server/_git/CAMPS-Server
 ```
 This command will clone the repository to the current directory (/root/CAMPS-Server/).
 
 ## 3. Authenticate (If Required).
 > [!NOTE]
-> Git will prompt you to enter your username and password or access token.
+> Git will prompt you to enter your username and password and access token.
 > 
-> To create you access token, follow those steps: [How to create personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+> Username: campsserver@hotmail.com
+> Token: yprd6e2su54vf6xdqm4ffc7mjkh7xnn7xp5gkdrwrlbiascquopq (Will expire 1 January 2025)
 
 ## 4. Make Executables.
 - Navigate to the Build derictory: 

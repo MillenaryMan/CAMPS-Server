@@ -22,8 +22,7 @@ This command will clone the repository to the current directory (/root/CAMPS-Ser
 > [!NOTE]
 > Git will prompt you to enter password or access token.
 >
-> 
-> Token: 
+> Token: Request token here: https://discord.gg/ZGBf6nA2Pk
 
 ## 4. Make Executables.
 - Navigate to the Build derictory: 

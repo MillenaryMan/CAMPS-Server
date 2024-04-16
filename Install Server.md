@@ -20,6 +20,7 @@ This command will clone the repository to the current directory (/root/CAMPS-Ser
 > Git will prompt you to enter your username and password and access token.
 > 
 > Username: campsserver@hotmail.com
+> 
 > Token: yprd6e2su54vf6xdqm4ffc7mjkh7xnn7xp5gkdrwrlbiascquopq (Will expire 1 January 2025)
 
 ## 4. Make Executables.

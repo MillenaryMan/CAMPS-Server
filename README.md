@@ -17,7 +17,12 @@ Steam Store Page: https://store.steampowered.com/app/2882560/CAMPS/
 >
 > - Storage: 2GB
 
-This is the step-by step instruction on how to setup your own CAMPS server.
+This is the step-by step instruction on how to setup your own CAMPS server using SteamCMD.
+1. [Install Server With SteamCMD](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Install%20Server.md)
+
+
+
+This is the step-by step instruction on how to setup your own CAMPS server without SteamCMD.
 1. [Install Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Install%20Server.md)
 2. [Setup Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Setup%20Server.md)
 3. [Automize Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Automatic%20Startup.md)

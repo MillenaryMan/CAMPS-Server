@@ -23,4 +23,4 @@ login <username>
 app_update 2948910
 ```
 
-That's it, CAMPS server has been isntalled.
+That's it, CAMPS server has been installed.

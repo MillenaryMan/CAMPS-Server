@@ -6,13 +6,13 @@ sudo apt upgrade -y
 ```
 
 Step 3: Install LXDE
-Install the LXDE desktop environment. It's known for being extremely lightweight:
+(It's known for being extremely lightweight)
 ```
 sudo apt install -y lxde
 ```
 
 Step 4: Install XRDP
-Install the XRDP server, which allows you to connect using the Remote Desktop Protocol (RDP):
+XRDP allows you to connect using the Remote Desktop Protocol (RDP):
 ```
 sudo apt install -y xrdp
 ```

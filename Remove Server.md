@@ -1,56 +1,23 @@
 # Removing CAMPS-Server
 ## 1. Stop the CAMPS-Server Service
-Before removing the CAMPS-Server directory, you need to stop the associated systemd service to prevent it from running.
+Before removing the CAMPS-Server directory, you need to stop the associated mp2 service.
 ```bash
-sudo systemctl stop camps_server
+mp2 stop 0
+mp2 save
 ```
 
-## 2. Terminate the Current Server Process
-Ensure that the CAMPS-Server process is terminated before proceeding.
-- Check if the CAMPS-Server process is running
-```bash
-pgrep -f "CAMPS.x86_64"
-```
-- If the process is running, kill it
-```bash
-sudo pkill -f "CAMPS.x86_64"
-```
-
-## 3. Delete the CAMPS-Server Directory
+## 2. Delete the CAMPS-Server Directory
 Delete the CAMPS-Server directory using the rm command. Be cautious as this action is irreversible.
 ```bash
-sudo rm -r /root/CAMPS-Server
+sudo rm -rf /root/.local/share/Steam/steamapps/common/CAMPS-Server
 ```
 
-## 4. Disable the CAMPS-Server Service
-Disable the CAMPS-Server service to prevent it from starting automatically on boot.
-```bash
-sudo systemctl disable camps_server
-```
-
-## 5. Remove the CAMPS-Server Service
-Finally, remove the systemd service file associated with the CAMPS-Server.
-```bash
-sudo rm /etc/systemd/system/camps_server.service
-```
 
 Summary of Commands:
 ```bash
-# Stop the CAMPS-Server Service
-sudo systemctl stop camps_server
-
-# Terminate the Current Server Process
-pgrep -f "CAMPS.x86_64"
-sudo pkill -f "CAMPS.x86_64"
-
-# Disable the CAMPS-Server Service
-sudo systemctl disable camps_server
-
-# Delete the CAMPS-Server Directory
-sudo rm -r /root/CAMPS-Server
-
-# Remove the CAMPS-Server Service
-sudo rm /etc/systemd/system/camps_server.service
+mp2 stop 0
+mp2 save
+sudo rm -rf /root/.local/share/Steam/steamapps/common/CAMPS-Server
 ```
 > [!NOTE]
 > Double-check the paths and service names before executing the commands.

@@ -13,9 +13,9 @@ Steam Store Page: https://store.steampowered.com/app/2882560/CAMPS/
 >
 > - CPU: 2 Cores (>2.5Ghz)
 >
-> - RAM: 2GB 
+> - RAM: 1GB 
 >
-> - Storage: 2GB
+> - Storage: 1GB
 
 This is the step-by step instruction on how to setup your own CAMPS server using SteamCMD.
 

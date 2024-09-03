@@ -13,7 +13,7 @@ Steam Store Page: https://store.steampowered.com/app/2882560/CAMPS/
 >
 > - CPU: 2 Cores (>2.5Ghz)
 >
-> - RAM: 3GB 
+> - RAM: 2GB 
 >
 > - Storage: 2GB
 

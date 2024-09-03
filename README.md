@@ -18,19 +18,14 @@ Steam Store Page: https://store.steampowered.com/app/2882560/CAMPS/
 > - Storage: 2GB
 
 This is the step-by step instruction on how to setup your own CAMPS server using SteamCMD.
-1. [Install Server With SteamCMD](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Install%20Server%20With%20SteamCMD.md)
 
+1. [Install Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Install%20Server.md)
 
+2. [Setup Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Setup%20Server.md)
 
-This is the step-by step instruction on how to setup your own CAMPS server without SteamCMD.
+3. [Update Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Update%20Server.md)
 
-[Install Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Install%20Server.md)
+4. [Protect Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Protect%20Server.md)
 
-[Setup Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Setup%20Server.md)
-
-[Update Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Update%20Server.md)
-
-[Protect Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Protect%20Server.md)
-
-[Remove Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Remove%20Server.md)
+5. [Remove Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Remove%20Server.md)
 

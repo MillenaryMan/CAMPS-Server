@@ -23,9 +23,14 @@ This is the step-by step instruction on how to setup your own CAMPS server using
 
 
 This is the step-by step instruction on how to setup your own CAMPS server without SteamCMD.
+
 [Install Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Install%20Server.md)
+
 [Setup Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Setup%20Server.md)
+
 [Update Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Update%20Server.md)
+
 [Protect Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Protect%20Server.md)
+
 [Remove Server](https://github.com/MillenaryMan/CAMPS-Server/blob/main/Remove%20Server.md)
 

@@ -25,6 +25,7 @@ app_update 2948910
 ```
 That's it, CAMPS server has been installed.
 
+> [!TIP]
 Run game as a PM2 process with auto start on startup.
 PM2 is a production process manager for Node.js applications, but it can also manage any other processes, making it useful for running and monitoring applications such as CAMPS game servers.
 

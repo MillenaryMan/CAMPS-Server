@@ -1,4 +1,4 @@
-# Updating Server Build with Git
+# Updating CAMPS Server App
 
 ## 1. Stop the Current Server Process
 Before updating the server build, it's essential to stop the current server process to prevent conflicts or unexpected behavior.

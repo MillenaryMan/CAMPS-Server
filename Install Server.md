@@ -36,7 +36,7 @@ sudo npm install -g pm2
 ```
 2. Start CAMPS Server with PM2
 ```
-pm2 start /root/.local/share/Steam/steamapps/common/CAMPS-Server/CAMPS_LinuxServer_Core.x86_64 --name CAMPS-Server
+pm2 start /root/.local/share/Steam/steamapps/common/CAMPS-Server/CAMPS_LinuxServer_Core.x86_64 --name CAMPS -- -batchmode -nographics
 ```
 3. Add PM2 to Startup
 ```

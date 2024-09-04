@@ -5,6 +5,8 @@ To install it on Ubuntu follow next steps, to install it on other OS follow offi
 1. Downloading SteamCMD on Ubuntu.
 ```
 sudo add-apt-repository multiverse; sudo dpkg --add-architecture i386; sudo apt update
+```
+```
 sudo apt install steamcmd
 ```
 2. Install the dependencies required to run SteamCMD.

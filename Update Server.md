@@ -28,6 +28,6 @@ Summary of Commands:
 pm2 stop 0
 steamcmd
 login <username>
-app_update 2948910 validate
+app_update 2948910
 pm 2 start 0
 ```

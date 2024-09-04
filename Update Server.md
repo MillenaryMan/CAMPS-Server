@@ -15,7 +15,7 @@ login <username>
 ## 3. Update app
 Get the latest update from Steam
 ```bash
-app_update 2948910 validate
+app_update 2948910
 ```
 
 ## 4. Restart the Server Process

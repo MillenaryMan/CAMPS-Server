@@ -12,6 +12,11 @@ dotnet --version
 sudo ufw allow 7777/udp
 ```
 
+Run From PM2
+```
+pm2 start "dotnet CAMPS.Server.dll" --name CAMPS-Server
+```
+
 # Linux
 ```
 dotnet publish -c Release -r linux-x64 --self-contained false -f net8.0 -o ./publish/linux

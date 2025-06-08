@@ -19,17 +19,17 @@ pm2 start "dotnet CAMPS.Server.dll" --name CAMPS-Server
 
 # Linux
 ```
-dotnet publish -c Release -r linux-x64 --self-contained false -f net8.0 -o ./publish/linux
+dotnet publish GameServer.csproj -c Release -r linux-x64 --self-contained false -f net8.0 -o ./publish/linux
 ```
 # Windows
 ```
-dotnet publish -c Release -r win-x64 --self-contained false -f net8.0 -o ./publish/windows
+dotnet publish GameServer.csproj -c Release -r win-x64 --self-contained false -f net8.0 -o ./publish/windows
 ```
 # macOS (Intel)
 ```
-dotnet publish -c Release -r osx-x64 --self-contained false -f net8.0 -o ./publish/macos-x64
+dotnet publish GameServer.csproj -c Release -r osx-x64 --self-contained false -f net8.0 -o ./publish/macos-x64
 ```
 # macOS (Apple Silicon)
 ```
-dotnet publish -c Release -r osx-arm64 --self-contained false -f net8.0 -o ./publish/macos-arm64
+dotnet publish GameServer.csproj -c Release -r osx-arm64 --self-contained false -f net8.0 -o ./publish/macos-arm64
 ```

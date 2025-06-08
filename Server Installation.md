@@ -13,15 +13,18 @@ sudo ufw allow 7777/udp
 ```
 
 # Linux
+```
 dotnet publish -c Release -r linux-x64 --self-contained true -f net8.0 -o ./publish/linux
-
+```
 # Windows
+```
 dotnet publish -c Release -r win-x64 --self-contained true -f net8.0 -o ./publish/windows
-
+```
 # macOS (Intel)
+```
 dotnet publish -c Release -r osx-x64 --self-contained true -f net8.0 -o ./publish/macos-x64
-
+```
 # macOS (Apple Silicon)
+```
 dotnet publish -c Release -r osx-arm64 --self-contained true -f net8.0 -o ./publish/macos-arm64
-
 ```
